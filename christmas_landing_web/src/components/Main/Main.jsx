@@ -16,7 +16,7 @@ const Main = () => {
       <Route path="/about" element={<About />}></Route>
       <Route path="/christmaslist" element={<ChristmasList />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
-      <Route path="/product/:id" element={<ProductDetail />}></Route>
+      <Route path="/product/:id?" element={<ProductDetail />}></Route>
       <Route path="/staff" element={<Staff />}></Route>
       <Route path="/topic" element={<Topic />}></Route>
       <Route path="/wishlist" element={<WishList />}></Route>
